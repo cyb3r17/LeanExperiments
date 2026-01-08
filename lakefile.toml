@@ -1,0 +1,12 @@
+name = "learn-lean"
+version = "0.1.0"
+keywords = ["math"]
+leanVersion = "4.26.0"
+
+[[lean_lib]]
+name = "LearnLean"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "master"
